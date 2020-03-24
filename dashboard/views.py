@@ -5,5 +5,4 @@ from django.views.generic.base import TemplateView
 # Create your views here.
 class Dashboard(TemplateView):
 
-    template_name = "dashboard/index.html"
-    redirect_field_name = None
+    template_name = "dashboard/blank.html"
